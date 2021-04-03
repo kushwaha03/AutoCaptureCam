@@ -13,6 +13,9 @@
 		746725D725AC8BBF0021AFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746725D525AC8BBF0021AFEA /* Main.storyboard */; };
 		746725D925AC8BC50021AFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746725D825AC8BC50021AFEA /* Assets.xcassets */; };
 		746725DC25AC8BC50021AFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746725DA25AC8BC50021AFEA /* LaunchScreen.storyboard */; };
+		747688DF25ADB0B2003E7D1F /* CCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747688DE25ADB0B2003E7D1F /* CCameraViewController.swift */; };
+		747688EA25ADD8BE003E7D1F /* PreLiveCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747688E925ADD8BE003E7D1F /* PreLiveCameraViewController.swift */; };
+		7476890725AF2024003E7D1F /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7476890625AF2024003E7D1F /* FocusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		746725D825AC8BC50021AFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746725DB25AC8BC50021AFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		746725DD25AC8BC50021AFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747688DE25ADB0B2003E7D1F /* CCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCameraViewController.swift; sourceTree = "<group>"; };
+		747688E925ADD8BE003E7D1F /* PreLiveCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLiveCameraViewController.swift; sourceTree = "<group>"; };
+		7476890625AF2024003E7D1F /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				746725CF25AC8BBF0021AFEA /* AppDelegate.swift */,
 				746725D125AC8BBF0021AFEA /* SceneDelegate.swift */,
+				747688E925ADD8BE003E7D1F /* PreLiveCameraViewController.swift */,
 				746725D325AC8BBF0021AFEA /* ViewController.swift */,
+				7476890625AF2024003E7D1F /* FocusViewController.swift */,
+				747688DE25ADB0B2003E7D1F /* CCameraViewController.swift */,
 				746725D525AC8BBF0021AFEA /* Main.storyboard */,
 				746725D825AC8BC50021AFEA /* Assets.xcassets */,
 				746725DA25AC8BC50021AFEA /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				746725D425AC8BBF0021AFEA /* ViewController.swift in Sources */,
+				7476890725AF2024003E7D1F /* FocusViewController.swift in Sources */,
 				746725D025AC8BBF0021AFEA /* AppDelegate.swift in Sources */,
 				746725D225AC8BBF0021AFEA /* SceneDelegate.swift in Sources */,
+				747688EA25ADD8BE003E7D1F /* PreLiveCameraViewController.swift in Sources */,
+				747688DF25ADB0B2003E7D1F /* CCameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GJJUP479Z;
 				INFOPLIST_FILE = AutoCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GJJUP479Z;
 				INFOPLIST_FILE = AutoCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
